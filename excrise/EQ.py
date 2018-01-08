@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Nov  5 12:23:56 2017
+Spyder Editor
 
-@author: akuma
+This is a temporary script file.
 """
 
 
