@@ -7,7 +7,7 @@ This is a temporary script file.
 
 
 def conflict(state, nextX):
-    nextY = len(state)
+    nextY = (len(state))
     for i in range(nextY):
         if abs(state[i] - nextX) in (0, nextY - i):
             return True
