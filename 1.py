@@ -3,12 +3,12 @@
 width = int(input('Please enter width: '))
 
 price_width = 10
-item_width  = width - price_width
+item_width = width - price_width
 
 header_fmt = '{{:{}}}{{:>{}}}'.format(item_width, price_width)
-fmt        = '{{:{}}}{{:>{}.2f}}'.format(item_width, price_width)
+fmt = '{{:{}}}{{:>{}.2f}}'.format(item_width, price_width)
 
-print('=' * width)
+print('*' * width)
 
 print(header_fmt.format('Item', 'Price'))
 
@@ -20,5 +20,5 @@ print(fmt.format('Cantaloupes', 1.92))
 print(fmt.format('Dried Apricots (16 oz.)', 8))
 print(fmt.format('Prunes (4 lbs.)', 12))
 
-print('=' * width)
+print('*' * width) 
 input('enter')
