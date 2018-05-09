@@ -1,4 +1,4 @@
-def invest(amount, rate, time):
+ef invest(amount, rate, time):
     print("principal amount:{}".format(amount))
     for i in range(1, time + 1):
         amount = amount * (1 + rate)
