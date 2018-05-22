@@ -67,11 +67,11 @@ print("y="+str(round(k, 2))+"x**2+"+str(round(b, 2))+"x+"+str(c))
 
 # 画样本点
 plt.figure(figsize=(8, 6))  # 指定图像比例： 8：6
-plt.scatter(Xi, Yi, color="green", label="样本数据", linewidth=2)
+plt.scatter(Xi, Yi, color="green", label="data", linewidth=2)
 
 # 画拟合直线
 x = np.linspace(0.15, 1.00, 100)  # 在0-15直接画100个连续点
 y = k*x**2+b*x+c  # 函数式
-plt.plot(x, y, color="red", label="拟合直线", linewidth=2)
+plt.plot(x, y, color="red", label="line", linewidth=2)
 plt.legend(loc='lower right')  # 绘制图例
 plt.show()
